@@ -44,15 +44,23 @@ header {
 
 #game-select {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  gap: 20px;
+  border: black 2px solid;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
 }
 
 .hidden-initial {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* display: none; */
+  display: none;
+}
+
+#select-container {
+  display: flex;
+  gap: 10px;
 }
 
 /* Consistent Game Stuff */

@@ -9,8 +9,8 @@
   </head>
   <body>
     <header>
-      <div>VanillaJSGames</div>
-      <button>Dark/Light Mode</button>
+      <div id="home-page">VanillaJSGames</div>
+      <button id="theme-button">Dark/Light Mode</button>
     </header>
     <main>
       <section id="hero-section">
@@ -24,13 +24,15 @@
           covered!
         </p>
         <div id="hero-buttons">
-          <button>Learn More</button><button>Random Game</button>
+          <button id="learn-more">Learn More</button
+          ><button id="random-game">Random Let's Play</button>
         </div>
       </section>
       <section id="game-select">
-        <button>Tic Tac Toe</button>
-        <button>Connect Four</button>
-        <button>Rock Paper Scissors</button>
+        <h3>Select Your Game:</h3>
+        <button id="tic-select">Tic Tac Toe</button>
+        <button id="connect-select">Connect Four</button>
+        <button id="rock-select">Rock Paper Scissors</button>
       </section>
       <section class="hidden-initial" id="tic-section">
         <h1>Tic Tac Toe</h1>
@@ -40,7 +42,8 @@
           jfkldjfkjsdlkfjasd lasdjfkl;sdjf lkasddfkl;jasl
         </p>
         <div class="startBackContainer">
-          <button>Start</button><button>Back</button>
+          <button class="start-button">Start</button
+          ><button class="back-button">Back</button>
         </div>
         <p class="turn-tracker"></p>
         <div class="game-board"></div>
