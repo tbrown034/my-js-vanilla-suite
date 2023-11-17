@@ -40,6 +40,28 @@ header {
   gap: 10px;
 }
 
+/* Game Select Styling  */
+
+#game-select {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hidden-initial {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* display: none; */
+}
+
+/* Consistent Game Stuff */
+
+.game-board {
+  min-height: 400px;
+  border: black solid 2px;
+}
+
 /* Footer Styling */
 footer {
   text-align: center;
